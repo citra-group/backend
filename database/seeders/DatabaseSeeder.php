@@ -16,7 +16,5 @@ class DatabaseSeeder extends Seeder
         $this->call(\ModuleHuman\Seeders\DatabaseSeeder::class);
         $this->call(\ModuleMyCoperative\Seeders\DatabaseSeeder::class);
         $this->call(\ModuleCoperative\Seeders\DatabaseSeeder::class);
-
-        var_dump('x');
     }
 }
