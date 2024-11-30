@@ -10,7 +10,7 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
-        "citra-group/platform": "^1.0",
+        "citrapp/platform": "^1.0",
         "laravel/framework": "^11.31",
         "laravel/horizon": "^5.29",
         "laravel/sanctum": "^4.0",
