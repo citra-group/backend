@@ -14,7 +14,7 @@ class DatabaseSeeder extends Seeder
         $this->call(\ModuleSystem\Seeders\DatabaseSeeder::class);
         $this->call(\ModuleReference\Seeders\DatabaseSeeder::class);
         $this->call(\ModuleHuman\Seeders\DatabaseSeeder::class);
-        ]$this->call(\ModuleCoperative\Seeders\DatabaseSeeder::class);
+        $this->call(\ModuleCoperative\Seeders\DatabaseSeeder::class);
         $this->call(\ModuleMyCoperative\Seeders\DatabaseSeeder::class);
         $this->call(\ModuleInfrastructure\Seeders\DatabaseSeeder::class);
     }
